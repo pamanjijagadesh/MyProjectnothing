@@ -1,0 +1,8 @@
+langchain
+langchain-core
+langchain-community
+langchain-mistralai
+langgraph
+duckduckgo-search
+ddgs
+streamlit
