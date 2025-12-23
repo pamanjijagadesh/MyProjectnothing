@@ -15,8 +15,8 @@ from langgraph.graph import StateGraph, END
 load_dotenv(".env")
 
 # ==================== Configuration and Setup ====================
-MISTRAL_ENDPOINT = "https://mistral-small-2503-Pamanji-test.southcentralus.models.ai.azure.com"
-MISTRAL_API_KEY = "5SKKbylMh5ueyeSfvUre68vknfYZMVAr"
+MISTRAL_ENDPOINT = "https://mistral-small-.models.ai.azure.com"
+MISTRAL_API_KEY = "5SKKbylMh5ueyvknfYZMVAr"
 
 # Initialize DuckDuckGo Search Wrapper
 wrapper = DuckDuckGoSearchAPIWrapper(max_results=50)
@@ -262,3 +262,4 @@ if user_input:
 
     # Save bot message
     st.session_state.messages.append({"role": "assistant", "content": response})
+
